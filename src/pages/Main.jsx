@@ -1,15 +1,15 @@
-import React from 'react'
-import { Route, Routes } from 'react-router-dom'
-import FlimYear from '../components/FlimYear'
-import FlimInfo from '../components/FlimInfo'
+import { useState } from "react"
+import FlimInfo from "../components/FlimInfo"
+import FlimYear from "../components/FlimYear"
+import { data } from "../helper/data"
 
 const Main = () => {
+    const [info, setInfo] = useState("2022")
     return (
-        <Routes>
-            <Route path="/" element={<FlimYear />}>
-                <Route index element={<FlimInfo />} />
-            </Route>
-        </Routes>
+        <div className="main d-flex gap-5 p-3">
+            <FlimYear data ={data} setInfo={setInfo}/>
+            <FlimInfo data ={data} info={info}/>
+        </div>
     )
 }
 
