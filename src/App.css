@@ -36,7 +36,9 @@
       }
     }
   }
- 
+  .right_card{
+    text-align: justify;
+  }
 
 @media (max-width: 768px) {
   .main {
