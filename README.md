@@ -1,5 +1,6 @@
 ## Welcome to My Project! 👋
 
+![movieCard](https://github.com/AliDurul/Movie-Info_card/assets/80897590/91e307dd-7183-4410-bf3a-f30496306b48)
 Thank you for visiting my projects! I'm thrilled to have you here, and I hope you find it interesting and helpful.
 
 ## About Me
